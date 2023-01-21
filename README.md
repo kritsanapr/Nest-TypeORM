@@ -45,6 +45,17 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Start database with container
+
+Run this command and change the configuration for your
+
+```
+application.
+$ cp .env.example .env
+
+$ docker compose up -d
+```
+
 ## Test
 
 ```bash
